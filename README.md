@@ -1,58 +1,98 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=233067&height=150&section=header" />
-
-# 프로젝트
-<div align="center">
-  <img src="https://github.com/Jeongseonil/Indie_Spot/blob/main/assets/indiespot.png?raw=true" width="300" height="300"/>
-</div>
-
 <h2>🔎 프로젝트 정보</h2>
 <div><b>📆 2023.10.23 ~ 2023.11.13 (22일)</b></div>
 <div>더조은컴퓨터아카데미 수강 두 번째 단체 프로젝트.</div>
 <br>
-<br>
-
-# 프로젝트 소개
-
-<div font-size:150%>우리 앱은 예술가와 상업 공간을 연결하는 플랫폼으로, 간편한 공연 일정 및 장소 등록과 홍보가 가능합니다. 아티스트들은 더 많은 관객을 유치하고, 상업 공간 소유자들은 시설을 효과적으로 활용하여 수익을 창출할 수 있습니다.</div>
-
-<br>
-
-# 프로젝트 팀원 & 담당기능
-|정선일|김성호|방대혁|이승준|이찬신|
-|---|---|---|---|---|
-|버스킹 등록, 버스킹(스팟) 목록, 버스킹(스팟)상세,포인트 상세, 충전, 환전, 목록, 영상 리스트, 영상 상세, 상업공간 목록, 공지사항, 관리자|로그인, 비밀번호 변경, 아티스트 등록,게시글 쓰기, 게시글 목록, 게시글 수정|메뉴바, 하단바, 버스킹(일정) 목록, 후원, 받은 후원 내역, 후원 내역, 영상 등록, 상업공간상세, 상업공간 예약, 상업공간 예약내역|회원가입, 버스킹 상세, 리뷰/별점, 마이페이지, 프로필 변경, 팔로워,팔로잉 목록,고객센터|메인화면, 팀/솔로 신청, 아티스트 수정, 아티스트 목록, 아티스트 상세, 상업공간등록|
-
-<br>
-
-# 스택
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=FFFFFF"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=FFFFFF"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=FFFFFF"/> <img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=github&logoColor=FFFFFF"/> <img src="https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=androidstudio&logoColor=FFFFFF"/> 
-
-<br>
-
-# 주요기능
-
-<h3>버스킹 장소안내</h3>
+<h2>✨ 담당 파트 소개</h2>
 <ul>
-  <li>구글 맵 API를 활용한 쉬운 위치 찾기</li>
+  <li>버스킹(일정)목록</li>
+  <li>후원&후원 내역</li>
+  <li>영상 등록</li>
+  <li>상업 공간 상세페이지</li>
+  <li>상업 공간 예약&내역</li>
 </ul>
-<h3>아티스트 홍보를 위한 영상공유 기능</h3>
+<div>이 글은 제가 담당한 파트를 소개하는 글 입니다.</div>
+<div>프로젝트의 전체적인 설명은 팀 README에서 확인해주세요!</div>
+<br>
+<div><b>팀 README :</b> https://github.com/Jeongseonil/Indie_Spot/blob/main/README.md</div>
+<br>
+<h2>🛠 Stacks</h2>
+<div>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/Github-181717?style=flat&logo=github&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat&logo=androidstudio&logoColor=FFFFFF"/> 
+</div>
+<br>
+<h2>⚙ 담당 파트 상세 설명</h2>
+<h3>[버스킹 목록]</h3>
 <ul>
-  <li>구글 Youtube API를 활용한 쉬운 영상등록</li>
-</ul>
-<h3>응원하는 아티스트를 후원하는 기능</h3>
-<ul>
-  <li>결제 API를 사용하여 안전한 결제 지원</li>
+  <li>등록된 버스킹 목록으로, 사용자가 검색이나 지역, 장르 별로 필터링하여 볼 수 있습니다.</li>
+  <li>날짜가 지난 버스킹의 경우 종료라고 표시하였습니다.</li>
 </ul>
 
-# 기능 구상도 & 데이터 베이스 구상
+![indie 공연 일정](https://github.com/bang015/Indie_Spot/assets/137017329/82434280-b776-4ee8-9911-e7a3267bbc58)
+
+<br>
+<h3>[후원]</h3>
+<ul>
+  <li>후원할 아트스트를 선택하여 후원 할 수 있습니다.</li>
+  <li>후원 금액, 메세지, 후원자명은 필수 입력 사항입니다.</li>
+</ul>
+
+![indie 후원](https://github.com/bang015/Indie_Spot/assets/137017329/698b0591-55a5-47ed-b3e1-058c15f0b165)
+
+<br>
+<h3>[후원 내역]</h3>
+<ul>
+  <li>최근 또는 원하는 달을 선택하여 후원한 내역을 볼 수 있습니다.</li>
+</ul>
+
+![indie 후원 내역](https://github.com/bang015/Indie_Spot/assets/137017329/98460027-910f-4402-a79b-57e3611ca502)
+
+<br>
+<h3>[받은 후원 내역]</h3>
+<ul>
+  <li>아티스트가 받은 후원 내역으로 후원 메세지를 볼 수 있고 정산 할 수 있습니다.</li>
+</ul>
+
+![indie 받은 후원](https://github.com/bang015/Indie_Spot/assets/137017329/66f6dc41-054f-424a-896b-45cfe9e5c951)
+
+<br>
+<h3>[영상 등록]</h3>
+<ul>
+  <li>아티스트 등록된 유저만 영상을 등록 할 수 있으며, 유튜브에 업로드 되어있는 영상만 등록 가능합니다.</li>
+  <li>유튜브 검색 API를 이용하여 원하는 키워드를 검색하여 등록할 영상을 선택하거나, 직접 URL을 입력하여 선택할 수 있습니다.</li>
+  <li>직접 URL을 입력하는 경우 format을 사용하여 필요한 부분만 추출하여 검색합니다.</li>
+</ul>
+
+![indie](https://github.com/bang015/Indie_Spot/assets/137017329/3a93364f-ebb3-427f-b771-0b08683485b6)
+
+<br>
+<h3>상업 공간 상세페이지</h3>
+<ul>
+  <li>상업 공간 목록에서 선택한 상업 공간의 상세 정보를 제공합니다.</li>
+</ul>
+
+![indie 상업 상세](https://github.com/bang015/Indie_Spot/assets/137017329/80e313e5-326c-4521-ac24-23cf289651a8)
+
+<br>
+<h3>상업 공간 예약&내역</h3>
+<ul>
+  <li>원하는 일시에 예약할 시간을 정하여 예약 할 수 있습니다.</li>
+  <li>이미 예약되어있는 일시는 선택하지 못하게 제한했습니다.</li>
+</ul>
+
+![indie 공간 예약](https://github.com/bang015/Indie_Spot/assets/137017329/41a060bc-b992-43b8-9c60-5fe3a7e9a69b)
+
+<br>
+<h2>⭐ 기능 구상도 & 데이터 베이스 구상</h2>
 https://docs.google.com/spreadsheets/d/17j2rgXfsVzLLVs930gcgggOC80-VTxdDG6CiF0lXQEk/edit?usp=sharing
 
-# 화면설계
+<h2>🖼️ 화면설계</h2> 
 https://www.figma.com/file/LbLGCvXW7OTjC1ewjsd5ek/%ED%94%8C%EB%9F%AC%ED%84%B0?type=design&mode=design&t=8HRRIaUez8AsEXY0-1
 
-# 시연 영상
-
+<h2>📺 시연 영상</h2>
 https://youtu.be/Y3ygFW4pYEo
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=233067&height=150&section=footer" />
 
